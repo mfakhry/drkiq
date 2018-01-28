@@ -15,7 +15,9 @@ Running this project you will end-up with 4 containers for each of the component
 1. Clone the project into your workspace.
 2. Create the following volumes for PostgreSQL and Redis:
     > docker volume create --name drkiq-postgres
+
     > docker volume create --name drkiq-redis
+	
 3. Start the environment with docker-compose:
     > docker-compose up
 
